@@ -1,0 +1,38 @@
+.Center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    }
+img.Center{
+    border-radius: 50%;
+    }
+body{
+    background-image: url('donald\ bradman.jpg\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Caption-Center-Color{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: skyblue;
+    border: 3px solid blue;
+    width: 30%;
+    text-align: center;
+}
+div.Center-Text-opacity{
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    background: rgba(0,0,0,0.6);
+    color: rgb(32, 142, 233);
+    background-size: auto;
+    opacity: 1;
+}
+p.Intro{
+    color:rgb(114, 122, 243);
+}
+strong{
+    color:rgb(209, 68, 68);
+    margin: auto;
+}
