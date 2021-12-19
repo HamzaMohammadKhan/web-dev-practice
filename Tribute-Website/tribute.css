@@ -45,3 +45,12 @@ strong{
 cite{
     color:rgb(32, 142, 233);
 }
+a:link{
+    color:blue;
+}
+a:visited{
+    color:tomato;
+}
+a:hover{
+    color:yellow;
+}
