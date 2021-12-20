@@ -12,6 +12,7 @@ body{
     background: transparent url('bradman.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: scroll;
 }
 .Caption-Center-Color{
     margin: auto;
@@ -23,12 +24,15 @@ body{
 }
 div.Center-Text-opacity{
     text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
     background: rgba(0,0,0,0.6);
     color: rgb(14, 197, 243);
     background-size: auto;
     opacity: 1;
+}
+.li-left{
+    text-align: left;
 }
 p.Intro{
     margin: auto;
