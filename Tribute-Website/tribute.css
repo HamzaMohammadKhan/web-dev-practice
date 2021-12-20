@@ -14,6 +14,14 @@ body{
     background-size: cover;
     background-attachment: scroll;
 }
+.center-date{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(196, 205, 209, 0.8);
+    border: 1px solid rgb(31, 31, 32);
+    width: 30%;
+    text-align: center;
+}
 .Caption-Center-Color{
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
