@@ -1,0 +1,89 @@
+.Center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    }
+img.Center{
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px grey;
+    }
+/* body{
+    background: transparent url('bradman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+} */
+body:before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(3px);
+    background: transparent url(bradman.jpg);
+    background-size: cover;
+}
+.center-date{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(196, 205, 209, 0.8);
+    border: 1px solid rgb(31, 31, 32);
+    width: 30%;
+    text-align: center;
+}
+.Caption-Center-Color{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(196, 205, 209, 0.8);
+    border: 1px solid rgb(31, 31, 32);
+    width: 30%;
+    text-align: center;
+}
+div.Center-Text-opacity{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    background: rgb(236, 228, 228);
+    border:1px solid rgb(31, 31, 32);
+    color: rgb(0, 0, 0);
+    background-size: auto;
+    opacity: 0.8;
+}
+.li-left{
+    text-align: left;
+
+}
+p.Intro{
+    margin: auto;
+    background-color: rgb(236, 228, 228);
+    border: 1px solid black;
+    color:rgb(14, 13, 13);
+    font-size: large;
+    width: 80%;
+    opacity: 0.8;
+}
+strong{
+    color:rgb(5, 5, 5);
+    margin: auto;
+}
+div.footer-area{
+    margin-right: 30%;
+    margin-left: 25%;
+    text-align: center;
+    background-color: rgb(236, 228, 228);
+    color:rgb(14,13,13);
+    width:50%;
+    opacity: 0.8;
+}
+a:link{
+    color:tomato;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:purple;
+}
