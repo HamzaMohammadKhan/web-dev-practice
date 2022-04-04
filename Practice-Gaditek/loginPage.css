@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.login{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.4)), url(horizon-sunset-mountains-dark.jpg);
+	background-position: center;
+	background-size: cover;
+	/*background: rgba(51, 170, 51, .1);     //10% opaque green
+	background: rgba(51, 170, 51, .4);    /*  40% opaque green 
+	background: rgba(51, 170, 51, .7);    /*  70% opaque green  
+	background: rgb(62, 77, 62);    full opaque green*/ 
+	position: absolute;
+}
+h1{
+	overflow: hidden;
+	border-right: .15em solid orange;
+	border-left: .15em solid orange;
+	white-space:pre-wrap;
+	margin: 0 auto;
+	letter-spacing: .15em;
+	text-align: center;
+	font-weight: 400;
+	font-size: 100px;
+	font-family:sans-serif;
+	color: white;
+}
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin : 10% auto; /*auto from left hand to right*/
+	background: rgb(238, 233, 233);
+	opacity: 0.8;
+	padding : 4px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor:  pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn-box{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #695ee3, #30c12b);
+	border-radius: 30px;
+	transition: .5s;
+}
+.social-media{
+	margin: 30px auto;
+	text-align: center;
+}
+.social-media img{
+	margin: 10px;
+	margin: 0px 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 30%;
+}
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .3s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #695ee3, #30c12b);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+span{
+	color: #777;
+	font-size: 15px;
+	bottom: 64px;
+	position: absolute;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
+}

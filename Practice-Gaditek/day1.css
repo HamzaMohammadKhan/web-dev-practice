@@ -1,0 +1,57 @@
+li{
+	text-align:left;
+	font-family: 'Josefin Sans', sans-serif ;	
+}
+
+body{
+
+}
+
+h1{
+	text-align: center;
+	color: white;
+	/*display: inline;*/
+	font-family: 'Josefin Sans' ,sans-serif;
+}
+
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+section.cw-header{
+
+}
+a.cw-image-placement{
+	width: 160px;
+    height: 35px;
+    background-image: url(https://www.cloudways.com/wp-content/themes/cw_multilingual/template/assets/img/sprite-hdr-logos.png);
+    background-repeat: no-repeat;
+    background-position: left 3px;
+    transition: none !important;
+    text-indent: -9999px;
+    display: inline-block;
+    margin-right: 45px;
+}
+
+p{
+	font-style: italic;
+}
+
+div.left-corner{
+	position: relative;
+}
+
+div.header{
+	padding: 11px;
+   background: darkblue;
+  color: white;
+  font-size: 20px;
+  opacity: 90%;
+}
